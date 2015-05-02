@@ -1,0 +1,28 @@
+{
+  "name": "react-mixin-notify-simple",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/mixin",
+  "scripts": {
+    "build_example": "browserify ./example/app.js -o ./example/bundle.js"
+  },
+  "browserify": {
+    "transform": ["reactify"]
+  },
+  "keywords": [
+    "react",
+    "react.js",
+    "mixin",
+    "notifycation"
+  ],
+  "author": "ishiduca@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "deepmerge": "^0.2.7",
+    "object-assign": "^2.0.0"
+  },
+  "devDependencies": {
+    "react": "^0.12.2",
+    "reactify": "^1.1.0"
+  }
+}
