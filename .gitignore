@@ -1,4 +1,5 @@
 .DS_Store
 *~
 *.swp
+example/bundle.js
 node_modules/
